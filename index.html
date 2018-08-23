@@ -140,7 +140,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <br>
                     <p>I ran into this random quote API online and I thought it was worth showing! For more information go to  <a href="https://quotesondesign.com/api-v4-0/">Quotes on Design API</a></p>
                     <script>
-                        $.getJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(a) {
+                        $.getJSON("https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(a) {
                             //console.log(a[0].content.length);
                             if(a[0].content.length < 400){
                                 $("#body").append(a[0].content + "<p>— " + a[0].title + "</p>")

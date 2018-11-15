@@ -181,6 +181,7 @@ ul.address {
 }
 
 .service-head h4 {
+    font-weight: bold;
     font-size: 1.2em;
     color: #FFF;
     background: #83a3e2;
@@ -1242,7 +1243,7 @@ div#portfolioModal1, div#portfolioModal2, div#portfolioModal3, div#portfolioModa
 /*}*/
 
 .portfolio-modal .modal-content h3 {
-    margin: 0 0 44px 0px;
+    margin: 20px 0px 20px 0px;
     font-size: 2em;
     color: #fff;
 }
@@ -1253,8 +1254,7 @@ div#portfolioModal1, div#portfolioModal2, div#portfolioModal3, div#portfolioModa
 }
 
 .portfolio-modal .modal-content p {
-    font-size: 14px;
-    padding: 2em 0;
+    padding: 10px;
     line-height: 1.8em;
     color: #fff;
 }
@@ -1683,7 +1683,7 @@ ul.year li:nth-child(6) {
     }
 
     .portfolio-modal .modal-content h3 {
-        margin: 0 0 14px 0px;
+        margin: 14px 0 14px 0px;
         font-size: 1.5em;
     }
 }
@@ -1787,6 +1787,7 @@ ul.year li:nth-child(6) {
     }
 
     .service-head h4 {
+
         font-size: 0.9em;
         padding: .5em 1.2em
     }

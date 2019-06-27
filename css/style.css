@@ -1521,11 +1521,11 @@ ul.social-icons.two {
 
 
 ul.year li:nth-child(2) {
-    margin-top: 96px;
+    margin-top: 177px;
 }
 
 ul.year li:nth-child(3) {
-    margin-top: 96px;
+    margin-top: 173px;
 }
 
 ul.year li:nth-child(4) {
@@ -1537,7 +1537,7 @@ ul.year li:nth-child(5) {
 }
 
 ul.year li:nth-child(6) {
-    margin-top: 174px;
+    margin-top: 195px;
 }
 #right-timelime {
     width: 100%;
@@ -2253,15 +2253,15 @@ ul.year li:nth-child(6) {
 @media (min-width: 992px) {
 
     ul.year li:nth-child(2) {
-        margin-top: 96px;
+        margin-top: 150px;
     }
 
     ul.year li:nth-child(3) {
-        margin-top: 96px;
+        margin-top: 147px;
     }
 
     ul.year li:nth-child(4) {
-        margin-top: 148px;
+        margin-top: 120px;
     }
 
     ul.year li:nth-child(5) {
@@ -2312,16 +2312,22 @@ ul.year li:nth-child(6) {
 
 }
 
+@media (max-width: 705px) {
+    ul.year li:nth-child(3) {
+        margin-top: 202px;
+    }
+}
+
 @media (min-width: 1200px) {
     .team-gd img {
         height: 300px;
     }
     ul.year li:nth-child(2) {
-        margin-top: 96px;
+        margin-top: 120px;
     }
 
     ul.year li:nth-child(3) {
-        margin-top: 96px;
+        margin-top: 149px;
     }
 
     ul.year li:nth-child(4) {
